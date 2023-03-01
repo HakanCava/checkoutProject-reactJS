@@ -47,29 +47,3 @@ const CardTotal = ({ products }) => {
 export default CardTotal;
 
 
-// return (
-//   <>
-//     {products.length ?(
-//       <div className="border m-1 text-center  justify-content-center">
-//         <div className=" border text-end d-flex p-1">
-//           <h5 className="me-3  ">SubTotal:</h5>
-//           <p className="">${subTotal.toFixed(2)}</p>
-//         </div>
-//         <p className="w-75">
-//           <span className="me-5">Tax(18%):</span>
-//           <span>${(subTotal * taxRate).toFixed(2)}</span>
-//         </p>
-//         <p>
-//           <span className="me-5">Shipping:</span>
-//           <span>${shipping.toFixed(2)}</span>
-//         </p>
-//         <p>
-//           <span>Total:</span>
-//           <span>
-//             ${(subTotal + subTotal * taxRate + shipping).toFixed(2)}
-//           </span>
-//         </p>
-//       </div>
-//     ):<h1 className="display-4 text-danger">No Products</h1>}
-//   </>
-// );
